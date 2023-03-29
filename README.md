@@ -23,13 +23,13 @@ The plots are separated into Northern Hemisphere (greater than or equal to 0 deg
 
 The VacationPy deliverable fulfills the following requirements:
 
-**Create a map that displays a point for every city generated in WeatherPy:** The size of each point reflects the humidity of that city.
+1. **Create a map that displays a point for every city generated in WeatherPy:** The size of each point reflects the humidity of that city.
 
-**Narrow down the cities to find your ideal weather condition:** The ideal weather condition was chosen to have a maximum temperature of between 70 and 80 degrees, a wind speed of less than 10 m/s, and zero cloudiness. These cities are then stored into a new DataFrame.
+2. **Narrow down the cities to find your ideal weather condition:** The ideal weather condition was chosen to have a maximum temperature of between 70 and 80 degrees, a wind speed of less than 10 m/s, and zero cloudiness. These cities are then stored into a new DataFrame.
 
-**For each city, find the nearest hotel:** For each city, the Geoapify API is used to find the first hotel located within 10,000 meters of the ideal cities' coordinates.
+3. **For each city, find the nearest hotel:** For each city, the Geoapify API is used to find the first hotel located within 10,000 meters of the ideal cities' coordinates.
 
-**Add the hotel name and the country as additional information in the hover message for each city on the map:** The final heatmap includes every city, with additional hover information for the five cities that met the ideal weather conditions.
+4. **Add the hotel name and the country as additional information in the hover message for each city on the map:** The final heatmap includes every city, with additional hover information for the five cities that met the ideal weather conditions.
 
 ![heatmap_with_markers](https://user-images.githubusercontent.com/111384049/228629958-43e74d17-aa44-42e9-81bc-4b80644e0585.PNG)
 
